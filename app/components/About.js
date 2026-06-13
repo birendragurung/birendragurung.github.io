@@ -22,13 +22,22 @@ export default function About() {
             </div>
           </div>
           <div className="relative flex justify-center pt-4">
-            <img
-              className="img-slot w-[260px] h-[260px] max-[820px]:w-[220px] max-[820px]:h-[220px] rounded-full border-[3px] border-line shadow-[0_0_0_6px_var(--color-surface),var(--shadow-md)] overflow-hidden shrink-0 object-cover"
-              src="/images/portrait.jpg"
-              alt="Birendra Gurung"
-              width={260}
-              height={260}
-            />
+            <div className="group img-slot relative w-[260px] h-[260px] max-[820px]:w-[220px] max-[820px]:h-[220px] rounded-full border-[3px] border-line shadow-[0_0_0_6px_var(--color-surface),var(--shadow-md)] overflow-hidden shrink-0">
+              <img
+                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+                src="/images/portrait-mono.jpg"
+                alt="Birendra Gurung"
+                width={260}
+                height={260}
+              />
+              <img
+                className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                src="/images/portrait.jpg"
+                alt="Birendra Gurung"
+                width={260}
+                height={260}
+              />
+            </div>
             <div className="absolute left-1/2 -translate-x-1/2 -bottom-[18px] bg-surface border border-line-strong rounded-[12px] px-[14px] py-2.5 shadow-[var(--shadow-md)] font-mono text-[12px]">
               <b className="text-[20px] text-accent block leading-none font-display">8+</b> years building<br />for the web
             </div>
