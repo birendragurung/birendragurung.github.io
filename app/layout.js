@@ -1,9 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Birendra Gurung — Web Developer',
+  title: 'Birendra Gurung — Software Engineer',
   description:
-    'Birendra Gurung — full-stack web developer. Laravel, Node, Python, React, Vue. 8+ years building reliable web products.',
+    'Birendra Gurung — software engineer with 8+ years building full-stack web products. PHP, Node, Python, React, Vue, MongoDB, AWS.',
 };
 
 export const viewport = {

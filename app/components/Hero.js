@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { WRAP, BTN, BTN_PRIMARY } from './styles';
 
-const STACK_CODE = "'laravel', 'node', 'python', 'react', 'vue'";
+const STACK_CODE = "'php', 'laravel', 'node', 'python', 'react', 'vue', 'next'";
 
 // max distance (px) at which a particle links to the cursor
 const MOUSE_DIST = 170;
@@ -298,7 +298,7 @@ export default function Hero() {
           I build <span className="text-accent">reliable&nbsp;</span> web products, end&nbsp;to&nbsp;end.
         </h1>
         <p className="reveal text-[clamp(17px,2vw,21px)] text-ink-soft max-w-[46ch] m-0 mb-[18px]" style={{ '--d': '.2s' }}>
-          Full-stack developer with 8+ years shipping for the web — comfortable from database to interface.
+          Software engineer with 8+ years building full-stack web products — from architecture and APIs to deployment and performance.
         </p>
         <p className="reveal font-mono text-[13px] text-ink-faint m-0 mb-[34px]" style={{ '--d': '.27s' }}>
           <span className="c">const</span> stack = [<span id="stackTyped" ref={stackTypedRef}></span><span className="stack-cur" ref={stackCurRef}>▎</span>]
